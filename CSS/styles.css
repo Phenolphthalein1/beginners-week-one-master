@@ -1,0 +1,77 @@
+p{
+  color:rgb(255, 204, 0);
+  text-align: center;
+  width: 40%
+  margin: 10vh, 10vw;
+  font-size: 1em;
+}
+
+body {
+  background-color:rgb(148, 85, 135);
+  font-family: Arial;
+  font-size: 14;
+  margin:40px 0px;
+}
+
+div {
+  min-height: 20vh;
+  width: 100vw;
+}
+/*vh and vw are percentages of the total screen size, so text etc. will move around when the screen is re-sized - RESPONSIVE DESIGN*/
+h1, h2 {
+  text-align: center;
+  color:rgb(255,255,255);
+  }
+/*Can include multiple sections in the same bit of code by separating with a comma*/
+/*When changing font size, using 'px' (pixel size) will work, but won't change with responsiveness. Use 'em' instead, it is relative to each other.*/
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+  padding: 10px;
+}
+img {
+  display: flex;
+  padding: 10px 40px;
+    margin: 0 auto;
+    border-style: dotted;
+  border-radius: 50%;
+}
+/*margin takes care of space outside of element (e.g. 50px moves whole thing 50 pixels)
+  padding takes care of space inside element. Adding more than 1 number will stretch in 2 directions
+  border-radius >50% becomes a circle*/
+
+a {
+  color: rgb(255,255,255);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ol {
+  list-style: none;
+  padding: 30;
+  margin-bottom: 10%;
+  font-size: 2em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.contrast {
+  background-color: rgba(255, 170, 0, 0.7);
+  color: rgb(255,255,255);
+}
+li {
+  margin: 0 200px
+  transition: 0.6s ease;
+}
+li:hover{
+  font-size: 1.2em;
+  transition:0.6s ease;
+}
